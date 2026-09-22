@@ -9,11 +9,12 @@ namespace MidtermExam.Prob01
 
         public override void Attack(GameEntity target)
         {
-            target.TakeDamage(baseDamage);
+            
         }
 
         protected virtual void Roar()
         {
+            
         }
     }
 }
